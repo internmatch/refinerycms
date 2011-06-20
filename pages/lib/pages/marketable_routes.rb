@@ -1,6 +1,6 @@
-::Refinery::Application.routes.draw do
-  match '*path' => 'pages#show'
-end
+#::Refinery::Application.routes.draw do
+  #match '*path' => 'pages#show'
+#end
 
 # Add any parts of routes as reserved words.
 if Page.use_marketable_urls?
